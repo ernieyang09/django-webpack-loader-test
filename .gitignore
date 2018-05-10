@@ -1,2 +1,4 @@
 /venv
 /client/node_modules
+/client/dist
+/client/webpack-stats.json
