@@ -1,3 +1,5 @@
+{% load render_bundle from webpack_loader %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,4 +12,5 @@
   <h1>Hello World!</h1>
   <em>{{ current_time }}</em>
 </body>
+{% render_bundle 'lol' %}
 </html>
